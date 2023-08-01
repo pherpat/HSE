@@ -7,6 +7,10 @@ body {
     height: 100%;
 }
 
+a, button {
+    transition: all 0.2s ease;
+}
+
 h1,
 h2,
 h3,
@@ -102,6 +106,12 @@ ul {
 ul a {
     text-decoration: none;
     color: #73787C !important;
+    display: block;
+}
+
+ul a:hover {
+    color: #102086!important;
+    scale: 1.1;
 }
 
 .hero-container {
@@ -366,6 +376,12 @@ ul a {
     cursor: pointer;
 }
 
+.blue-box-btn:hover {
+    background-color: #2C42C9;
+    color: white!important;
+    scale: 1.1;
+}
+
 .blue-pic-side {
     max-width: 30%;
     background-image: url(./images/construction.jpg);
@@ -456,6 +472,10 @@ ul a {
 .linkedIn {
     max-width: 90px;
     display: block;
+}
+
+.linkedIn img:hover{
+    filter: brightness(0) saturate(100%) invert(6%) sepia(87%) saturate(7295%) hue-rotate(238deg) brightness(91%) contrast(92%);
 }
 
 .defense-p {
@@ -611,6 +631,12 @@ textarea::placeholder {
     cursor: pointer;
 }
 
+.contact-btn:hover {
+    background-color: #2C42C9;
+    color: white!important;
+    scale: 1.05;
+}
+
 .footer-container {
     height: 216px;
     background-color: #090909;
@@ -661,6 +687,10 @@ textarea::placeholder {
     display: flex !important;
     justify-content: space-evenly !important;
     align-items: center !important;
+}
+
+.ul-footer a:hover{
+    color: white!important;
 }
 
 .footer-rights {
